@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<title>Developer Portfolio</title>
 
@@ -12,8 +11,8 @@
 	</head>
 	<body>
 		<!-- Navbar -->
-			<nav class="navbar navbar-expand navbar-light bg-warning fixed-top">
-			  <a class="navbar-brand ml-md-3 pl-md-3" href="./index.html">
+			<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+			  <a class="navbar-brand active ml-md-3 pl-md-3" href="./index.html">
 			  	<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
 			  	  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
 			  	</svg>
@@ -23,8 +22,8 @@
 			  </button>
 			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			    <div class="navbar-nav ms-auto">
-			      <a class="nav-link active" href="#">Home</a>
-			      <a class="nav-link" href="./about-me.html">About Me</a>
+			      <a class="nav-link" href="./home.html">Home</a>
+			      <a class="nav-link active" href="#">About Me</a>
 			      <a class="nav-link" href="./gallery.html">Gallery</a>
 			      <a class="nav-link" href="./contact-me.html">Contact Me</a>
 			    </div>
@@ -32,85 +31,51 @@
 			</nav>
 		<!-- Navbar End -->
 
-		<!-- Intro -->
-			<div class="container-fluid mt-5 text-center">
+		<!-- About my education -->
+			<div class="container mt-5 pt-md-1">
+			
+			    <h3 class="text-center mt-5">Education</h3>
 
-			  <div class="d-lg-inline-block w-50 mx-auto">
+			    <div class="row mt-3 mb-4 p-4">
+			        <div class="col-12 col-md-6 order-2 order-md-1 pt-3 pb-3 text-justify infant text-center d-flex flex-column  justify-content-center align-items-center">
+			            <h5>Infant Jesus English Public High School, Rajura</h5>
+			            <p>Started my studies from Primary School in Infant Jesus English Public High School in town Rajura, (Dist. Chandrapur, Maharashtra). This is a good school with all activities such as culturals, sports and communications.</p>
+			        </div>
+			        <div class="col-12 col-md-6 order-1 order-md-2">
+			            <img src="./images/infant.webp" class="img-fluid"/>
+			        </div>
+			    </div>
+			    
+			    <div class="row mt-3 mb-4 p-4">
+			        <div class="col-12 col-md-6 order-2 pt-3 pb-3 text-justify kvm text-center d-flex flex-column justify-content-center align-items-center">
+			            <h5>Krishna Vidya Mandir Public School, Sikar</h5>
+			            <p>After completing my primary schooling in Rajura, I took admission for 11th standard in Krishna Vidya Mandir Public School, Sikar(Rajasthan). In this school, teachers were very interactive and teaching all the morals along with studies which made an origin of path of my career.</p>
+			        </div>
+			        <div class="col-12 col-md-6 order-1">
+			            <img src="./images/kvm.jpg" class="img-fluid" />
+			        </div>
+			    </div>
 
-			      <img class="rounded-circle img-fluid mt-5 w-25" src="./Images/home.jpg"/>
-			      <div class="mt-3">
-			      		<h3>Hello and welcome to my portfolio.</h3>
-			      		<h4 class="teal-color font-weight-normal">I am a developer and an Electrical Engineering student at IIT Bombay. I am passionate about creating innovative solutions for real-world problems using technology. I have experience in web development, embedded systems and as an electrical engineer, in electrical too. I am from Dausa district of Rajasthan, where I grew up with a curiosity for science and engineering. I enjoy learning new skills and exploring new domains. Here you can find some of my projects and achievements that showcase my abilities and interests.</h4>
+			    <div class="row mt-3 mb-4 p-4">
+			        <div class="col-12 col-md-6 order-1 pt-3 pb-3 text-justify bg-secondary text-center d-flex flex-column justify-content-center align-items-center">
+			            <h5>Career Line Coaching, Sikar</h5>
+			            <p>Along with 11th 12th, I also prepared for JEE. To boost my preparation I took admission in the CLC coaching institute. It has a very good education system which made me to pass my first dream (getting into more demanding IIT).</p>
+			        </div>
+			        <div class="col-12 col-md-6 order-2">
+			            <img src="./images/clc.jpg" class="img-fluid" />
+			        </div>
+			    </div>
 
-			      </div>
-			      
-			  </div>
-
-			</div>
-		<!-- Intro End -->
-
-		<!-- Projects -->
-			<div class="container">
-					<div class="alert alert-info mr-0 row" role="alert">
-					  <h2 class="text-center alert-heading ">My Projects</h2>
-					</div>
-				        
-
-				        <!-- Other Projects Start -->
-				        <div class="row mt-3 mb-3">
-
-				            <!-- Crypto Assets Volatility -->
-				            <div class="col-12 col-md-6 pt-3 pb-3 ml-auto">
-								<div class=" d-flex flex-column align-items-center justify-content-center">
-									<img src="https://images.pexels.com/photos/7788009/pexels-photo-7788009.jpeg?auto=compress&cs=tinysrgb&w=800" class="img-fluid">
-								</div>
-								<div>
-									<h5 class="text-center">Crypto Assets Volatility</h5>
-									<h3 class="text-center">(Finsearch, Finance Club, IITB )</h3>
-									<p class="text-justify">Collaborated as a team of four to gain a brief understanding of basic terms of Crypto assets volatility such as Market Capitalization, Cryptocurrency, DeFi, BAT.</p>	
-								</div>
-				            </div>
-				            <!--Crypto Assets Volatility-->
-
-				            <!-- IITB – CPU -->
-				            <div class="col-12 col-md-6 pt-3 pb-3 ml-auto mr-auto">
-								<div class=" d-flex flex-column align-items-center justify-content-center">
-									<img src="./Images/cpu.jpeg" class= "img-fluid">
-								</div>
-								<div>
-									<h5 class="text-center">IITB – CPU</h5>
-									<p class="text-justify">Used VHDL as HDL to implement a computing system, IITB CPU using point-to-point communication infrastructure. IITB-CPU is a 16-bit very simple computer developed for the teaching purpose.</p>	
-								</div>
-							</div>
-				            <!-- IITB – CPU -->
-
-				            <!-- Radio Controlled Plane Competition -->
-				            <div class="col-12 col-md-6 pt-3 pb-3 mr-auto d-flex flex-column">
-								<div class=" d-flex flex-column align-items-center justify-content-center">
-									<img src="./Images/RC plane.jpeg" class="img-fluid w-100 h-100">
-								</div>
-								<div>
-									<h5 class="text-center">Radio Controlled Plane Competition</h5>
-									<h3 class="text-center">(Aeromodelling Club, IIT Bombay)</h3>
-									<p class="text-justify">Engineered the design of a Radio-Controlled Plane and utilized brushless DC motors, electric speed controls, a Servo motor and a Lithium-Polymer battery to assemble an electric circuit for it. Assembled mechanical and electronic parts of aircraft and executed successful flights.</p>	
-								</div>
-							</div>
-				            <!-- Radio Controlled Plane Competition End -->
-
-				            <div class="col-12 col-md-6 pt-3 pb-3 mr-auto d-flex flex-column">
-								<div class="d-flex flex-column items-align-center justify-content-center">
-									<img src="./Images/Microprocessor.jpg" class="img-fluid w-100 h-100">
-								</div>
-								<div>
-									<h5 class="text-center">IITB-RISC </h5>
-									<h3 class="text-center">6-stage pipelined processor</h3>
-									<p class="text-justify">IITB-RISC is a 16-bit very simple computer developed for the teaching that is based on the Little Computer Architecture. The IITB-RISC-23 is a 16-bit computer system with 8 registers. It should follow the standard 6 stage pipelines (Instruction fetch, instruction decode, register read, execute, memory access, and write back).</p>	
-								</div>
-							</div>
-
-				        </div>
-				        <!-- Other Projects End -->
-			</div>
+			    <div class="row mt-3 mb-4 p-4">
+			        <div class="col-12 col-md-6 order-2 pt-3 pb-3 text-justify iitb text-center d-flex flex-column justify-content-center align-items-center">
+			            <h5>IIT Bombay</h5>
+			            <p>Finally, I am here :). IITB is highly diverse in various fields, with many extra facilities providing a perfect Engineer environment. Planning many things here to build an awesome career.</p>
+			        </div>
+			        <div class="col-12 col-md-6 order-1">
+			            <img src="./images/iitb.jpg" class="img-fluid" />
+			        </div>
+			    </div>
+		<!-- About my education End -->
 
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
